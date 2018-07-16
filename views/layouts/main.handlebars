@@ -1,0 +1,101 @@
+<!-- This is the layout and will extend to all pages-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Team 1 Profile</title>
+  </head>
+  <body>
+
+      <body style="height:1500px">
+  <header>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div id="branding">
+            </div><br>
+              <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="team">Team<span class="highlight"> 1 </span> </li>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/salvadora">Salvadora</a></li>
+                    <li><a href="/nofuente">Nofuente</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+ </header>
+
+    {{{body}}}
+    <div class="footer">
+      <p>Polytechnic University of the Philippines 2018</>
+    </div>
+  </body>
+
+
+<style>
+
+.team{
+  font-size: 30px;
+}
+
+header{
+background:#35424a;
+color:#ffffff;
+
+min-height: 90px;
+
+}
+
+header a{ /*names*/
+float: right;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+header li{
+float: right;
+display: inline;
+padding: 0 20px 0 20px ; /* top right bottom left**/
+}
+
+header #branding {
+
+}
+
+header #branding h1{
+margin: 0;
+}
+
+header nav{
+display: inline;
+margin-top: 0px;
+
+}
+
+header .highlight, header .current a{
+color: #e8491d;
+font-weight: bold;
+}
+
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+.footer {
+    font-size: 20px;
+    background-color: #35424a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+</style>
+
+</html>
